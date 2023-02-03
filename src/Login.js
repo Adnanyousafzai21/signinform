@@ -40,12 +40,12 @@ else{
               type={type}
               style={{ width: "60%" }}
             />
-               <span onClick={show}>{text}</span>
+              
 
           </div>
 
           <p className="para">
-            If Don't have account? <Link to="/"> Sign up</Link>
+            If Don't have account? <a href="/"> Sign up</a>
           </p>
           <div className="btn">
             <Button

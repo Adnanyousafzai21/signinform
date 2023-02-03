@@ -55,4 +55,21 @@ h1 {
   width: 100%;
   text-align: center;
 }
-
+@media screen and (max-width:800px) {
+  
+  .form{
+    width: 70%;
+  }
+}
+@media screen and (max-width:500px) {
+  
+  .form{
+    width: 80%;
+  }
+  /* .inputFeild {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+  } */
+}

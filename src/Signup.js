@@ -2,7 +2,6 @@ import React from "react";
 import { makeStyles } from "@mui/material/styles";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import { Link } from "react-router-dom";
 // import Radio from "@mui/material/Radio";
 // import RadioGroup from "@mui/material/RadioGroup";
 // import FormControlLabel from "@mui/material/FormControlLabel";
@@ -264,7 +263,7 @@ const Signup = () => {
             </div>
           </div>
           <p className="para">
-            Already have account? <Link to="./login"> login</Link>
+            Already have account? <a href="./login"> login</a>
           </p>
           <div className="btn">
             <Button
